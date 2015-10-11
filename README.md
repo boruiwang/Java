@@ -1,1 +1,1 @@
-# For cs61B/2015Winter/UCB
+# For cs61b/2015Spring/UCB
