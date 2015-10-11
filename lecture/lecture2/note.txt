@@ -1,0 +1,17 @@
+# Lecture1 & Lecture2 note
+
+The way Java works
+	Source -> Compiler -> bytecode -> output
+
+Code structure in Java
+	Class -> method -> statement
+
+# System.out.print & System.out.println (print in new line)
+# Things the object knows(instance variables) & Things the object does(methods)
+# Class & Object: Button -> different buttons
+# Two classes: One for the object you want to use
+			   Second for testing your new class(main method)
+
+Variable
+Primitive and object reference
+array: int[] nums;
