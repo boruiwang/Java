@@ -1,7 +1,7 @@
 public class BinarySearch {
 
 	public static int binarySearch(int key, int[] a, int lo, int hi) {
-		if(lo >= hi)
+		if(lo > hi)
 			return -1;
 
 		int mid = lo + (hi - lo) / 2;
@@ -15,7 +15,7 @@ public class BinarySearch {
 	}
 
 	public static void main(String args[]) {
-		int[] list = {1, 4, 5, 7, 10, 12};
+		int[] list = {1, 4, 5, 7, 10, 12, 15};
 		int key = 5;
 		int result = binarySearch(key, list, 0, list.length - 1);
 		if(result == -1)
